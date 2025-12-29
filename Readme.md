@@ -1,4 +1,4 @@
-# 🎧 Single-Input Audio Separation (Cocktail Party Problem)
+#  Single-Input Audio Separation (Cocktail Party Problem)
 
 This project demonstrates **single-microphone speech separation** using  
 **Non-Negative Matrix Factorization (NMF)** in the time–frequency domain.
@@ -8,7 +8,7 @@ Instead, the mixed signal is separated using **spectrogram decomposition and Wie
 
 ---
 
-## 📌 Features
+##  Features
 - Single audio input
 - Blind source separation
 - Frequency-domain processing
@@ -17,7 +17,7 @@ Instead, the mixed signal is separated using **spectrogram decomposition and Wie
 
 ---
 
-## 🧠 Theory Overview
+## Theory Overview
 1. Audio is converted to a **Short-Time Fourier Transform (STFT)**
 2. Magnitude spectrogram is factorized using **NMF**
 3. Soft masks are computed for each source
@@ -31,3 +31,4 @@ Instead, the mixed signal is separated using **spectrogram decomposition and Wie
 ```bash
 pip install -r requirements.txt
 python separate_audio.py
+
