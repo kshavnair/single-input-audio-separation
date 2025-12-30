@@ -26,9 +26,10 @@ Instead, the mixed signal is separated using **spectrogram decomposition and Wie
 
 ---
 
-## ▶️ Usage
+## Usage
 
 ```bash
 pip install -r requirements.txt
 python separate_audio.py
+
 
